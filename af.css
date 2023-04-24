@@ -1,0 +1,32 @@
+#af{ height: 1478px; width: 1919px;  max-height: 100%;}
+.af{ height: 1478px; width: 1919px;  max-height: 100%;}
+iframe {position:fixed;z-index:-1;display:block; height: 100%; width: 100%;}
+#torrents { color:#0ff;}
+.nav-link{color:#0ff;}
+html,body{overflow:auto;}
+navbar-toggler{background-color:#0ff}
+.navbar-toggler{background-color:#0ff}
+background-color: azure;
+.navbar-toggler-icon{background-color: #0ff}
+body{overflow:auto}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px #35d3cc9c; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0ffff; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #72b2bdc7; 
+}
