@@ -1,0 +1,7 @@
+ Simple Private Torrent Tracker that works on shared hosting providers like bluehost,godaddy.
+ This application can be expanded and uses php and the bittorrent protocol to serve up files privately. 
+ This application is not the most secure, not does it use web sockets. It's meant to be used on cheap private hosts where root access is not allowed, with the most basic php libs possible.
+
+ The database structure is in file db.mysql.sql. This can be ran in cpanel tools to create the database.
+ site.php is the html components. This can be modified to your liking. The render.js is for using three.js for the cool nebula effect. 
+ 
