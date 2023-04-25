@@ -58,9 +58,9 @@ CREATE TABLE IF NOT EXISTS `invitations` (
 
 ALTER TABLE `invitations` ADD UNIQUE `unique_index`(`email`, `invitation_key`);
 
---GRANT SELECT, INSERT, UPDATE, DELETE ON *.* TO 'user'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON *.* TO 'simpletracker'@'localhost';
 
-INSERT INTO users (username, password, passkey, email) VALUES ('user', '$2y$10$6xA.5jOqve6N3OTQ6v1pEe1mUOvP30DtNuk/TAgjhM87YXCuseOOm', 'a087597edaae687d7f3d71da5431fce2', '@');
+INSERT INTO users (username, password, passkey, email) VALUES ('tnmi', '$2y$10$6xA.5jOqve6N3OTQ6v1pEe1mUOvP30DtNuk/TAgjhM87YXCuseOOm', 'a087597edaae687d7f3d71da5431fce2', '@');
 -- password is simpletracker
 
 SET FOREIGN_KEY_CHECKS=1;

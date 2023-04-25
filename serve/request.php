@@ -54,7 +54,6 @@ $_SESSION = [];        }
 
 site_header();
 
-printf('<iframe src="https://thenewmanagementinc.com/neb/chainSocial.html"></iframe>');
 
 printf('<form style="width:fit-content;height:fit-content;" class="login" method="POST" action="request.php%s">', array_key_exists('email', $_GET) ? '?email=' . html_escape(urlencode($_GET['email'])) : '');
 csrf_html();

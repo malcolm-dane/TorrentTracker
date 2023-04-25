@@ -67,10 +67,10 @@ function site_header() {
     printf('<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>');
     printf('<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>');
     printf('<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>');
-      printf('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">');
     printf('<link rel="stylesheet" href="https://foodtoken.club/simpletracker/af.css">');
+    printf('<link rel="stylesheet" href="https://thenewmanagementinc.com/tor/af.css">');
 
-printf('<style>* {margin: 0; padding: 0; } html, body {overflow: hidden; } .webgl {position: fixed; top: 0; left: 0; outline: none; } html body div.dg.ac{display:none} </style>');
+printf('<style>* {margin: 0; padding: 0; } html, body {overflow: auto; } .webgl {position: fixed; top: 0; left: 0; outline: none; } html body div.dg.ac{display:none} </style>');
 
 
 
@@ -136,8 +136,9 @@ void main() {
 <script src="https://thenewmanagementinc.com/tor/serve/render.js"></script>
 <link rel="stylesheet" media="all" href="https://engine.thenewmanagementinc.com/assets/application-2c251ffd51eaab78f0d578c164b7dde4b0debf7d0141761e5544589c5f2955c6.css">
 
+    <link rel="stylesheet" href="https://thenewmanagementinc.com/tor/serve/af.css">;
 
-<style type="text/css">#box{overflow:auto} #win{overflow: auto;} #winb{overflow:auto} #winb{overflow: auto;}#win.winb {overflow: auto}; .navbar-light .navbar-nav .nav-link{color:#0ff}</style>
+
         <nav style="background-color:#3a40464f" class="navbar navbar-expand-lg navbar-light">
   <a style="color:#0ff" class="navbar-brand" href="#"><?php echo $CONFIG['site_title']; ?></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -174,11 +175,9 @@ void main() {
   </div>
 </nav>
 <section id="win">
-    <style>#box {
-    overflow: scroll; height: 900px;max-height: 100%;
-}</style>
-<div id="box" style="overflow: scroll; height: 900px;max-height: 100%;">
-       <div class="container">
+
+<div id="mailbody">
+       <div id="mailbox">
     <?php
     }
 
@@ -186,41 +185,10 @@ void main() {
 function site_footer() {
     ?>
     </div>
-   <div id="win">
-
-
-      <div id="winb" style='display:none' >
-        
-
-<h2></h2>
-<table style="
-    overflow-y: scroll;
-    height: 824px;
-    max-height: 100%;
-    display: flow-root;">
-  <thead>
-      <tr><th colspan="3"><h2></h2></th></tr>
-  </thead>
   
-</table>
-
-  <p></p>
-<br>
-<h2></h2>
-<p></p>
-<pre></pre>
-<small><b>Web3 powered by blockchain</b></small>
-
-        <br>
-        <div id="foot" style="overflow:auto;">
-  
-        </div>
-      </div>
-    </div>
   </div>
-</section>
 
-
+<div id="table"></div>
     </body>
     <?php
 }

